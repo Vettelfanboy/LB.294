@@ -1,0 +1,35 @@
+{
+    "Montag": {
+      "08:00": "In die Schule gehen",
+      "12:00": "Mittagspause",
+      "16:00": "Hausaufgaben",
+      "18:00": "Training",
+      "22:00": "Schlafen"
+    },
+    "Dienstag": {
+      "07:00": "In die Schule gehen",
+      "12:00": "Mittagspause",
+      "17:00": "Lernen",
+      "20:00": "Content-Creator Live-Stream schauen",
+      "23:00": "Schlafen"
+    },
+    "Mittwoch": {
+      "08:00": "In die Schule gehen",
+      "12:00": "Mittagspause",
+      "18:00": "Kochen",
+      "22:00": "Schlafen"
+    },
+    "Donnerstag": {
+      "08:00": "In die Schule gehen",
+      "12:00": "Mittagspause",
+      "18:00": "Training",
+      "23:00": "Schlafen"
+    },
+    "Freitag": {
+      "08:00": "In die Schule gehen",
+      "12:00": "Mittagspause",
+      "19:00": "Gaming-Session",
+      "00:00": "Schlafen"
+    }
+  }
+  

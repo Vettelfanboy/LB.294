@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-Listen-Editor</title>
+</head>
+<body>
+    <header>
+        <h1>To-Do Liste</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href= "#">Home/Anmelden</a></li>
+            <li><a href= "#">Beispiel-To-Do</a></li>
+            <li><a href= "#">To-Do-Liste editieren</a></li>
+        </ul>
+    </nav>
+
+    <div id="login-form">
+        <form>
+            <label for="username">Benutzername:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Anmelden</button>
+        </form>
+    </div>
+    
+    <h2>Beispiel-To-Do</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Uhrzeit</th>
+                <th>Aktivität</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Montag -->
+            <tr>
+                <td rowspan="5">Montag</td>
+                <td>08:00</td>
+                <td>In die Schule gehen</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Mittagspause</td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td>Hausaufgaben</td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td>Training</td>
+            </tr>
+            <tr>
+                <td>22:00</td>
+                <td>Schlafen</td>
+            </tr>
+
+            <!-- Dienstag -->
+            <tr>
+                <td rowspan="5">Dienstag</td>
+                <td>07:00</td>
+                <td>In die Schule gehen</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Mittagspause</td>
+            </tr>
+            <tr>
+                <td>17:00</td>
+                <td>Lernen</td>
+            </tr>
+            <tr>
+                <td>20:00</td>
+                <td>Content-Creator Live-Stream schauen</td>
+            </tr>
+            <tr>
+                <td>23:00</td>
+                <td>Schlafen</td>
+            </tr>
+
+            <!-- Mittwoch -->
+            <tr>
+                <td rowspan="4">Mittwoch</td>
+                <td>08:00</td>
+                <td>In die Schule gehen</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Mittagspause</td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td>Kochen</td>
+            </tr>
+            <tr>
+                <td>22:00</td>
+                <td>Schlafen</td>
+            </tr>
+
+            <!-- Donnerstag -->
+            <tr>
+                <td rowspan="4">Donnerstag</td>
+                <td>08:00</td>
+                <td>In die Schule gehen</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Mittagspause</td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td>Training</td>
+            </tr>
+            <tr>
+                <td>23:00</td>
+                <td>Schlafen</td>
+            </tr>
+
+            <!-- Freitag -->
+            <tr>
+                <td rowspan="4">Freitag</td>
+                <td>08:00</td>
+                <td>In die Schule gehen</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Mittagspause</td>
+            </tr>
+            <tr>
+                <td>19:00</td>
+                <td>Gaming-Session</td>
+            </tr>
+            <tr>
+                <td>00:00</td>
+                <td>Schlafen</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+
+    <div id="app"></div>
+    <script src="app.js"></script>
+
+    <footer>
+        <p>&copy; 2023 Simon Veljkovic. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
